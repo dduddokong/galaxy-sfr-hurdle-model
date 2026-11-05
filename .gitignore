@@ -1,0 +1,35 @@
+# Competition data: not redistributed here (download from SNU IDIS DataHub, dataset 42)
+data/*
+!data/README.md
+*.csv
+!results/**/*.csv
+
+# Intermediate caches and model artefacts produced by src/ scripts
+results/**/_cache/
+results/hsloop/
+results/**/runs/
+results/**/models/
+*.npz
+*.npy
+*.parquet
+*.joblib
+*.pkl
+*.log
+
+# Notebooks / submission files (contain competition application details)
+*.ipynb
+.ipynb_checkpoints/
+
+# Python / environment
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

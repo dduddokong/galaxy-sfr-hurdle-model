@@ -1,0 +1,82 @@
+{
+ "script": "data/scripts/rpt_05_process_report_numbers.py",
+ "source": "results/rstress/rs_41_nb_repro.json",
+ "source_notebook_sha256": "f9f5c1a50756e68c9cb47916a9cf391e1b23471855afcfe5d186f6758755056a",
+ "nest": {
+  "random": {
+   "n_units": 25,
+   "d_n1_final_mean": 0.045042024663920016,
+   "d_n1_final_min": -0.12967867159849433,
+   "d_n1_final_max": 0.2990440721725367,
+   "n1_lower_than_final": 10,
+   "n1_higher_than_final": 15,
+   "d_n2_final_mean": 0.03374776967352407,
+   "d_final_v2_mean": -0.007444343267960995,
+   "final_lower_than_v2": 24,
+   "d_n1_v2_mean": 0.03759768139595902,
+   "n1_lower_than_v2": 11,
+   "n1_eq_final_all4": 0,
+   "n2_eq_final_all4": 7,
+   "n1_final_domain": 6,
+   "n1_final_weights": 9,
+   "n1_final_boundary": 25,
+   "n1_final_mag": 0,
+   "n1_mag_bh_free": 25
+  },
+  "spatial": {
+   "n_units": 5,
+   "d_n1_final_mean": 0.07014922742142068,
+   "d_n1_final_min": -0.0068136388177846285,
+   "d_n1_final_max": 0.15427906792575907,
+   "n1_lower_than_final": 1,
+   "n1_higher_than_final": 4,
+   "d_n2_final_mean": 0.04884654950712779,
+   "d_final_v2_mean": -0.00650427761457788,
+   "final_lower_than_v2": 5,
+   "d_n1_v2_mean": 0.06364494980684281,
+   "n1_lower_than_v2": 1,
+   "n1_eq_final_all4": 0,
+   "n2_eq_final_all4": 1,
+   "n1_final_domain": 2,
+   "n1_final_weights": 1,
+   "n1_final_boundary": 5,
+   "n1_final_mag": 0,
+   "n1_mag_bh_free": 5
+  },
+  "n_outer": 30,
+  "pooled_spatial": {
+   "n1": 7.657788385408191,
+   "n2": 7.6272625662634,
+   "final": 7.584525390572479,
+   "v2": 7.5905090240653355
+  },
+  "bound_only_n_units": 30,
+  "bound_only_n_11": 29,
+  "seconds": 12993.064080953598
+ },
+ "bound": {
+  "n_units": 35,
+  "n_best_10.5": 4,
+  "n_best_11.0": 26,
+  "n_best_11.5": 4,
+  "n_best_12.0": 1,
+  "mean_minus_11_10.5": 0.0020007813193293955,
+  "mean_minus_11_11.5": 0.00961400063504309,
+  "mean_minus_11_12.0": 0.21840531012039438
+ },
+ "sp0": {
+  "rmse_hmass": 5.458382444070835,
+  "delta_rmse": -0.006144067228560424
+ },
+ "time": {
+  "repeat_s": 1418.432037115097,
+  "nested_s": 12993.064080953598,
+  "coninner_s": 883.0186302661896
+ },
+ "records": {
+  "n_ideas": 56,
+  "n_adopted": 22,
+  "n_rejected": 6,
+  "n_prereg_docs": 21
+ }
+}

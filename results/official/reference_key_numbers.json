@@ -1,0 +1,52 @@
+{
+  "split": {
+    "n_train": 166749,
+    "n_val": 41688,
+    "val_zero_frac": 0.08659566302053348,
+    "val_top10_threshold_sfr": 7.578824901
+  },
+  "target_linear": {
+    "mean": 3.709984777535011,
+    "std": 11.79458256558221,
+    "median": 1.63192785,
+    "q99": 34.85941928799942,
+    "max": 2145.3728,
+    "val_max": 884.106812
+  },
+  "median_baseline_rmse_all": 12.34508883190164,
+  "hgb_baseline": {
+    "rmse_all": 9.525462617060612,
+    "mae_all": 1.2857589174133104,
+    "r2_all": 0.38657291785940984,
+    "rmse_top10": 29.44551180727677,
+    "train_seconds": 1.8034090995788574
+  },
+  "hgb_log1p_diag": {
+    "rmse_all": 9.812361060540264,
+    "mae_all": 1.0950076151287664
+  },
+  "hgb_sse_share_by_true_sfr_rank": {
+    "top_0.1pct": 0.8464335412622765,
+    "top_1pct": 0.9050433208468727,
+    "top_10pct": 0.9556236025856835
+  },
+  "hgb_worst_single_galaxy": {
+    "true_sfr": 884.106812,
+    "pred_sfr": 11.676574922800272,
+    "sse_share": 0.20122327089235162,
+    "rmse_all_without_it": 8.51341859931391
+  },
+  "top0p1pct_profile": {
+    "n": 209,
+    "sfr_threshold": 112.78131788400853,
+    "median_log10_stellar_mass": 12.0055828,
+    "median_log10_halo_mass": 13.541502,
+    "median_log10_overdensity_plus_1": 1.44915831,
+    "frac_mass_ratio_above_floor": 0.8995215311004785,
+    "frac_mass_ratio_above_floor_all": 0.1566852334278463
+  },
+  "matches_briefing_screen": {
+    "hgb_rmse_9.525463": true,
+    "median_rmse_12.345089": true
+  }
+}
